@@ -4,7 +4,5 @@ def line(katz_deli)
   katz_deli.each_with_index{|name, index| array = "#{name} #{index + 1}"}
   array
   return "The line is currently empty." if array == 0
-
-  else
   end
 end
