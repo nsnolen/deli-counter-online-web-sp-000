@@ -10,7 +10,7 @@ def take_a_number(katz_deli, name = "Ada")
   array = []
   array.push("#{name}") if array.length == 0
   katz_deli.each_with_index{|name, index| array << "Welcome, #{name}. You are number #{index + 1} in line."}
-  array.join
+  array = array.join
 
 end
 
