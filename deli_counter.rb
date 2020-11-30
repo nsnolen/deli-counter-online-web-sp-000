@@ -8,8 +8,9 @@ end
 
 def take_a_number(katz_deli, name)
   array = []
-  array.push("#{name}") if array.length == 0
   katz_deli.each_with_index{|name, index| array << "#{name}, #{index}"}
+    array = array[index+1]
+    array.last("#{name}")
   array.join
 
 end
