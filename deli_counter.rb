@@ -6,7 +6,7 @@ def line(katz_deli)
 
 end
 
-def take_a_number(katz_deli, name = "Ada")
+def take_a_number(katz_deli, name)
   array = []
   array.push("#{name}") if array.length == 0
   katz_deli.each_with_index{|name, index| array << "Welcome, #{name}. You are number #{index + 1} in line."}
