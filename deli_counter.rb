@@ -8,7 +8,7 @@ end
 
 def take_a_number(katz_deli, name)
   array = []
-  
+
   katz_deli.each_with_index{|name, index| array << "#{index + 1}. #{name}"}
   #array.push("#{name}")
 
