@@ -9,7 +9,7 @@ end
 def take_a_number(katz_deli, name)
   array = []
   katz_deli.each_with_index{|name, index| array << "#{index + 1}"}
-  array.push("#{name}") if array.legth == 0
+  array.push("#{name}") if array.length == 0
   puts "Welcome, #{name}. You are number #{array.join(' ')} in line." if array.length == 0
 end
 
