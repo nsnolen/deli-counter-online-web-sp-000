@@ -9,10 +9,10 @@ end
 def take_a_number(katz_deli, name)
   array = []
 
-  katz_deli.each_with_index{|name, index| array << "#{index + 1}. #{name}"}
+  katz_deli.each_with_index{|name, index| array << "Welcome #{name}, you are number #{index + 1} in line.}
   #array.push("#{name}")
 
-  puts  "#{array.join} in line." if array.length == 0
+  puts  "#{array.join}" if array.length == 0
 end
 
 
