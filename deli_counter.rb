@@ -11,7 +11,7 @@ def take_a_number(katz_deli, name)
   name = get.chomp
   array.unshift("#{name}") if array.length == 0
   katz_deli.each_with_index{|name, index| array << "#{index + 1}. #{name}"}
-  
+
 
   puts  "#{array.join} in line." if array.length == 0
 end
