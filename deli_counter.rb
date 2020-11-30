@@ -9,7 +9,7 @@ end
 def take_a_number(katz_deli, name)
   array = []
   katz_deli.each_with_index{|name, index| array << "#{name}, #{index}"}
-    array = array[index+1]
+    next_name = name[index+1]
     array.last("#{name}")
   array.join
 
