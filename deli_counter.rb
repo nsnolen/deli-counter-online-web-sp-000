@@ -15,7 +15,7 @@ def take_a_number(katz_deli, name)
   #array.push("#{name}")
   array.push("#{name}") if array.length == 0
   katz_deli.each_with_index{|name, index| array << "Welcome, .push. You are number #{index + 1} in line."}
-  
+
 end
 
 
