@@ -13,8 +13,8 @@ def take_a_number(katz_deli, name)
   #katz_deli.each_with_index{|name, index| array << "Welcome #{name}, you are number #{index + 1} in line."}
   array = []
   array.push("#{name}")
-  katz_deli.each_with_index{|name, index| array << "#{index + 1}. #{name}"}
-  puts "Welcome, #{name}. You are number #{index} in line." #array.join
+  katz_deli.each_with_index{|name, index| array << "Welcome, .push. You are number #{index + 1} in line."}
+  array.join
 end
 
 
