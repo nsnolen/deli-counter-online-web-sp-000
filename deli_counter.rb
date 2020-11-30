@@ -14,7 +14,7 @@ def take_a_number(katz_deli, name)
   array = []
   array.push("#{name}")
   katz_deli.each_with_index{|name, index| array << "#{index + 1}. #{name}"}
-  puts array.join
+  puts "Welcome, #{name}. You are number #{index} in line." #array.join
 end
 
 
