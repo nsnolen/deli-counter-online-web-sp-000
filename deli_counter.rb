@@ -3,8 +3,8 @@ def line(katz_deli)
   array = []
   katz_deli.each_with_index{|name, index| array = "#{name} #{index + 1}"}
   array
-  if katz_deli.length == 0
-    "The line is currently empty."
+  return "The line is currently empty." if katz_deli.length == 0
+
   else
   end
 end
