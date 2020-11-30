@@ -3,5 +3,6 @@ def line(katz_deli)
   array = []
   katz_deli.each_with_index{|name, index| array = "#{name} #{index + 1}"}
   return "The line is currently empty." if array == 0
-  end
+  end 
+end
 end
