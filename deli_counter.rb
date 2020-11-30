@@ -3,6 +3,7 @@ def line(katz_deli)
   katz_deli.each_with_index{|name, index| array = "#{name} #{index + 1}"}
   puts "The line is currently empty." if array.length == 0
   returns array.join if array.length => 0
+end 
 end
 
 
