@@ -11,7 +11,7 @@ def take_a_number(katz_deli, name)
   katz_deli << "#{name}" if katz_deli.length == 0
   katz_deli.each_with_index{|name, index| array << "#{name}, #{index}"}
 
-  puts "Welcome, #{array(name).join}. You are number #{array} in line."
+  puts "Welcome, #{array[name].join}. You are number #{array} in line."
 
 
 end
