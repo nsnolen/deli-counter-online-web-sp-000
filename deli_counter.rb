@@ -8,7 +8,7 @@ end
 
 def take_a_number(katz_deli, name)
   array = []
-    katz_deli << "#{name}" if array.length == 0
+    katz_deli << "#{name}" if katz_deli.length == 0
   katz_deli.each_with_index{|name, index| array << "#{name}, #{index}"}
 
   puts "Welcome, #{array.last}. You are number #{array} in line."
