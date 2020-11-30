@@ -14,6 +14,6 @@ def take_a_number(katz_deli, name)
 
 end
 
-array = name[index+1]
+#array = name[index+1]
 
 #iterating through the katz_deli array and returning different value
