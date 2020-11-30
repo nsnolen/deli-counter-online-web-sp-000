@@ -8,10 +8,10 @@ end
 
 def take_a_number(katz_deli, name)
   array = []
-    katz_deli << "#{name}" if katz_deli.length == 0
+  katz_deli << "#{name}" if katz_deli.length == 0
   katz_deli.each_with_index{|name, index| array << "#{name}, #{index}"}
 
-  puts "Welcome, #{array[name].last}. You are number #{array} in line."
+  puts "Welcome, #{array.join.last}. You are number #{array} in line."
 
 
 end
