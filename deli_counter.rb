@@ -6,7 +6,11 @@ def line(katz_deli)
 
 end
 
-
+def take_a_number(katz_deli)
+  array = []
+  katz_deli.each_with_index{|name, index| array << "#{index + 1}. #{name}"}
+  puts "Welcome, #{name}. You are number #{index} in line."
+end
 
 
 
